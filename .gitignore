@@ -1,24 +1,81 @@
-# OS files
+# -----------------------------
+# OS Files
+# -----------------------------
 .DS_Store
 Thumbs.db
 
+# -----------------------------
 # Logs
+# -----------------------------
 *.log
+logs/
 
-# Environment files
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
 .env
+.env.*
+*.env
 
-# Dependency folders
+# -----------------------------
+# Node.js
+# -----------------------------
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -----------------------------
+# PHP / Composer
+# -----------------------------
 vendor/
 
-# Build output
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+venv/
+env/
+.venv/
+
+# -----------------------------
+# .NET / C#
+# -----------------------------
+bin/
+obj/
+*.dll
+*.exe
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# -----------------------------
+# Build / Output
+# -----------------------------
 dist/
 build/
+out/
+release/
+debug/
 
-# IDE files
+# -----------------------------
+# IDE / Editors
+# -----------------------------
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Git files
+# -----------------------------
+# Git temporary files
+# -----------------------------
 .gitignore~
