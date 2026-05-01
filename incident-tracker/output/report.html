@@ -1,0 +1,250 @@
+
+        <html>
+        <head>
+            <title>IT Incident Report</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f6f9;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .header {
+                    background-color: #2f4b7c;
+                    color: white;
+                    padding: 15px;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                .container {
+                    padding: 20px;
+                }
+
+                .cards {
+                    display: flex;
+                    gap: 15px;
+                    margin-bottom: 20px;
+                }
+
+                .card {
+                    background: white;
+                    padding: 15px;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                    flex: 1;
+                    text-align: center;
+                }
+
+                .card h2 {
+                    margin: 0;
+                }
+
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    background: white;
+                    border-radius: 8px;
+                    overflow: hidden;
+                }
+
+                th, td {
+                    padding: 10px;
+                    text-align: left;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                th {
+                    background-color: #2f4b7c;
+                    color: white;
+                }
+
+                .badge {
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    color: white;
+                    font-size: 12px;
+                }
+
+                .critical { background-color: red; }
+                .high { background-color: orange; }
+                .medium { background-color: gold; color: black; }
+                .low { background-color: green; }
+
+                .failed {
+                    color: red;
+                    font-weight: bold;
+                }
+            </style>
+        </head>
+
+        <body>
+
+            <div class="header">
+                IT Incident Auto-Triage Report
+            </div>
+
+            <div class="container">
+
+                <!-- Summary Cards -->
+                <div class="cards">
+                    <div class="card">
+                        <h2>12</h2>
+                        <p>Total Incidents</p>
+                    </div>
+                    <div class="card">
+                        <h2>5</h2>
+                        <p>Critical</p>
+                    </div>
+                    <div class="card">
+                        <h2>2</h2>
+                        <p>High</p>
+                    </div>
+                    <div class="card">
+                        <h2>2</h2>
+                        <p>Medium</p>
+                    </div>
+                    <div class="card">
+                        <h2>3</h2>
+                        <p>Low</p>
+                    </div>
+                </div>
+
+                <!-- Table -->
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Type</th>
+                        <th>Severity</th>
+                        <th>Jira</th>
+                        <th>ServiceNow</th>
+                        <th>Azure</th>
+                    </tr>
+        
+                    <tr>
+                        <td>INC001</td>
+                        <td>Database connection timeout on prod-db-01</td>
+                        <td>network</td>
+                        <td><span class="badge critical">critical</span></td>
+                        <td>MOCK-JIRA-0438F</td>
+                        <td>MOCK-SNOW-604B5D</td>
+                        <td>MOCK-AZURE-17B9D5</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC003</td>
+                        <td>Checkout service returning NullPointerException</td>
+                        <td>app</td>
+                        <td><span class="badge critical">critical</span></td>
+                        <td>MOCK-JIRA-593FC</td>
+                        <td>MOCK-SNOW-D3FE0A</td>
+                        <td>MOCK-AZURE-F64678</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC004</td>
+                        <td>Network switch offline in DC rack B</td>
+                        <td>network</td>
+                        <td><span class="badge critical">critical</span></td>
+                        <td>MOCK-JIRA-BD769</td>
+                        <td>MOCK-SNOW-7E4344</td>
+                        <td>MOCK-AZURE-9FB1E0</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC005</td>
+                        <td>Ransomware signature detected on workstation</td>
+                        <td>security</td>
+                        <td><span class="badge critical">critical</span></td>
+                        <td>MOCK-JIRA-EDC0D</td>
+                        <td>MOCK-SNOW-8D8ECD</td>
+                        <td>MOCK-AZURE-6DE6FB</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC010</td>
+                        <td>Scheduled job failed in non production</td>
+                        <td>app</td>
+                        <td><span class="badge critical">critical</span></td>
+                        <td>MOCK-JIRA-47F54</td>
+                        <td>MOCK-SNOW-54CF3D</td>
+                        <td>MOCK-AZURE-21C7DD</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC006</td>
+                        <td>Payment gateway timeout Stripe API 503</td>
+                        <td>app</td>
+                        <td><span class="badge high">high</span></td>
+                        <td>MOCK-JIRA-7D7B2</td>
+                        <td>MOCK-SNOW-7F85AF</td>
+                        <td>MOCK-AZURE-291002</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC012</td>
+                        <td>DNS resolution intermittent on 10.2.0.0 network</td>
+                        <td>network</td>
+                        <td><span class="badge high">high</span></td>
+                        <td>MOCK-JIRA-F5C16</td>
+                        <td>MOCK-SNOW-5987E6</td>
+                        <td>MOCK-AZURE-839FAC</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC007</td>
+                        <td>Intermittent packet loss on VLAN 30</td>
+                        <td>network</td>
+                        <td><span class="badge medium">medium</span></td>
+                        <td>MOCK-JIRA-E5725</td>
+                        <td>MOCK-SNOW-3AD170</td>
+                        <td>MOCK-AZURE-2EA3DF</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC009</td>
+                        <td>API response slow P95 latency 4.2 seconds</td>
+                        <td>app</td>
+                        <td><span class="badge medium">medium</span></td>
+                        <td>MOCK-JIRA-27CB0</td>
+                        <td>MOCK-SNOW-4E6ABE</td>
+                        <td>MOCK-AZURE-7E7DF2</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC002</td>
+                        <td>Suspicious login attempts from unknown IP</td>
+                        <td>app</td>
+                        <td><span class="badge low">low</span></td>
+                        <td>MOCK-JIRA-BA2DE</td>
+                        <td>MOCK-SNOW-A52AC9</td>
+                        <td>MOCK-AZURE-6408F5</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC008</td>
+                        <td>Phishing email reported by employees</td>
+                        <td>security</td>
+                        <td><span class="badge low">low</span></td>
+                        <td>MOCK-JIRA-E0C02</td>
+                        <td>MOCK-SNOW-54DF01</td>
+                        <td>MOCK-AZURE-2038CB</td>
+                    </tr>
+            
+                    <tr>
+                        <td>INC011</td>
+                        <td>Minor firewall rule misconfiguration found</td>
+                        <td>network</td>
+                        <td><span class="badge low">low</span></td>
+                        <td>MOCK-JIRA-ECFB4</td>
+                        <td>MOCK-SNOW-7FF260</td>
+                        <td>MOCK-AZURE-8256C2</td>
+                    </tr>
+            
+                </table>
+            </div>
+        </body>
+        </html>
+        

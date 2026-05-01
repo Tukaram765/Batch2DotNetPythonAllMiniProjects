@@ -1,0 +1,98 @@
+[
+  {
+    "id": "INC001",
+    "title": "Database connection timeout on prod-db-01",
+    "description": "Production database is down due to network timeout issue",
+    "reported_by": "admin",
+    "timestamp": "2024-07-01T10:00:00Z",
+    "assigned_team": "Network Team"
+  },
+  {
+    "id": "INC002",
+    "title": "Suspicious login attempts from unknown IP",
+    "description": "Multiple failed login attempts detected from foreign IP address",
+    "reported_by": "security_bot",
+    "timestamp": "2024-07-01T11:00:00Z",
+    "assigned_team": "Security Team"
+  },
+  {
+    "id": "INC003",
+    "title": "Checkout service returning NullPointerException",
+    "description": "Application error causing checkout failure in production",
+    "reported_by": "app_monitor",
+    "timestamp": "2024-07-01T12:00:00Z",
+    "assigned_team": "App Team"
+  },
+  {
+    "id": "INC004",
+    "title": "Network switch offline in DC rack B",
+    "description": "Core switch is down affecting multiple systems",
+    "reported_by": "infra_team",
+    "timestamp": "2024-07-01T13:00:00Z",
+    "assigned_team": "Network Team"
+  },
+  {
+    "id": "INC005",
+    "title": "Ransomware signature detected on workstation",
+    "description": "Security breach detected with ransomware activity",
+    "reported_by": "antivirus_system",
+    "timestamp": "2024-07-01T14:00:00Z",
+    "assigned_team": "Security Team"
+  },
+  {
+    "id": "INC006",
+    "title": "Payment gateway timeout Stripe API 503",
+    "description": "External API failing with HTTP 503 error",
+    "reported_by": "payment_service",
+    "timestamp": "2024-07-01T15:00:00Z",
+    "assigned_team": "App Team"
+  },
+  {
+    "id": "INC007",
+    "title": "Intermittent packet loss on VLAN 30",
+    "description": "Network performance degradation observed intermittently",
+    "reported_by": "network_monitor",
+    "timestamp": "2024-07-01T16:00:00Z",
+    "assigned_team": "Network Team"
+  },
+  {
+    "id": "INC008",
+    "title": "Phishing email reported by employees",
+    "description": "Multiple users reported phishing attempts via email",
+    "reported_by": "employee",
+    "timestamp": "2024-07-01T17:00:00Z",
+    "assigned_team": "Security Team"
+  },
+  {
+    "id": "INC009",
+    "title": "API response slow P95 latency 4.2 seconds",
+    "description": "Application performance is degraded with slow response times",
+    "reported_by": "monitoring_tool",
+    "timestamp": "2024-07-01T18:00:00Z",
+    "assigned_team": "App Team"
+  },
+  {
+    "id": "INC010",
+    "title": "Scheduled job failed in non production",
+    "description": "Background job failure in staging environment",
+    "reported_by": "scheduler",
+    "timestamp": "2024-07-01T19:00:00Z",
+    "assigned_team": "App Team"
+  },
+  {
+    "id": "INC011",
+    "title": "Minor firewall rule misconfiguration found",
+    "description": "Security rules need adjustment but no active threat",
+    "reported_by": "security_audit",
+    "timestamp": "2024-07-01T20:00:00Z",
+    "assigned_team": "Security Team"
+  },
+  {
+    "id": "INC012",
+    "title": "DNS resolution intermittent on 10.2.0.0 network",
+    "description": "DNS queries failing intermittently in subnet",
+    "reported_by": "dns_monitor",
+    "timestamp": "2024-07-01T21:00:00Z",
+    "assigned_team": "Network Team"
+  }
+]

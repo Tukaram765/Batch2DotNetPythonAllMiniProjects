@@ -1,0 +1,158 @@
+[
+    {
+        "id": "INC001",
+        "title": "Database connection timeout on prod-db-01",
+        "description": "Production database is down due to network timeout issue",
+        "type": "network",
+        "severity": "critical",
+        "assigned_team": "Network Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-0438F",
+            "snow": "MOCK-SNOW-604B5D",
+            "azure": "MOCK-AZURE-17B9D5"
+        }
+    },
+    {
+        "id": "INC003",
+        "title": "Checkout service returning NullPointerException",
+        "description": "Application error causing checkout failure in production",
+        "type": "app",
+        "severity": "critical",
+        "assigned_team": "App Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-593FC",
+            "snow": "MOCK-SNOW-D3FE0A",
+            "azure": "MOCK-AZURE-F64678"
+        }
+    },
+    {
+        "id": "INC004",
+        "title": "Network switch offline in DC rack B",
+        "description": "Core switch is down affecting multiple systems",
+        "type": "network",
+        "severity": "critical",
+        "assigned_team": "Network Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-BD769",
+            "snow": "MOCK-SNOW-7E4344",
+            "azure": "MOCK-AZURE-9FB1E0"
+        }
+    },
+    {
+        "id": "INC005",
+        "title": "Ransomware signature detected on workstation",
+        "description": "Security breach detected with ransomware activity",
+        "type": "security",
+        "severity": "critical",
+        "assigned_team": "Security Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-EDC0D",
+            "snow": "MOCK-SNOW-8D8ECD",
+            "azure": "MOCK-AZURE-6DE6FB"
+        }
+    },
+    {
+        "id": "INC010",
+        "title": "Scheduled job failed in non production",
+        "description": "Background job failure in staging environment",
+        "type": "app",
+        "severity": "critical",
+        "assigned_team": "App Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-47F54",
+            "snow": "MOCK-SNOW-54CF3D",
+            "azure": "MOCK-AZURE-21C7DD"
+        }
+    },
+    {
+        "id": "INC006",
+        "title": "Payment gateway timeout Stripe API 503",
+        "description": "External API failing with HTTP 503 error",
+        "type": "app",
+        "severity": "high",
+        "assigned_team": "App Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-7D7B2",
+            "snow": "MOCK-SNOW-7F85AF",
+            "azure": "MOCK-AZURE-291002"
+        }
+    },
+    {
+        "id": "INC012",
+        "title": "DNS resolution intermittent on 10.2.0.0 network",
+        "description": "DNS queries failing intermittently in subnet",
+        "type": "network",
+        "severity": "high",
+        "assigned_team": "Network Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-F5C16",
+            "snow": "MOCK-SNOW-5987E6",
+            "azure": "MOCK-AZURE-839FAC"
+        }
+    },
+    {
+        "id": "INC007",
+        "title": "Intermittent packet loss on VLAN 30",
+        "description": "Network performance degradation observed intermittently",
+        "type": "network",
+        "severity": "medium",
+        "assigned_team": "Network Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-E5725",
+            "snow": "MOCK-SNOW-3AD170",
+            "azure": "MOCK-AZURE-2EA3DF"
+        }
+    },
+    {
+        "id": "INC009",
+        "title": "API response slow P95 latency 4.2 seconds",
+        "description": "Application performance is degraded with slow response times",
+        "type": "app",
+        "severity": "medium",
+        "assigned_team": "App Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-27CB0",
+            "snow": "MOCK-SNOW-4E6ABE",
+            "azure": "MOCK-AZURE-7E7DF2"
+        }
+    },
+    {
+        "id": "INC002",
+        "title": "Suspicious login attempts from unknown IP",
+        "description": "Multiple failed login attempts detected from foreign IP address",
+        "type": "app",
+        "severity": "low",
+        "assigned_team": "Security Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-BA2DE",
+            "snow": "MOCK-SNOW-A52AC9",
+            "azure": "MOCK-AZURE-6408F5"
+        }
+    },
+    {
+        "id": "INC008",
+        "title": "Phishing email reported by employees",
+        "description": "Multiple users reported phishing attempts via email",
+        "type": "security",
+        "severity": "low",
+        "assigned_team": "Security Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-E0C02",
+            "snow": "MOCK-SNOW-54DF01",
+            "azure": "MOCK-AZURE-2038CB"
+        }
+    },
+    {
+        "id": "INC011",
+        "title": "Minor firewall rule misconfiguration found",
+        "description": "Security rules need adjustment but no active threat",
+        "type": "network",
+        "severity": "low",
+        "assigned_team": "Security Team",
+        "tickets": {
+            "jira": "MOCK-JIRA-ECFB4",
+            "snow": "MOCK-SNOW-7FF260",
+            "azure": "MOCK-AZURE-8256C2"
+        }
+    }
+]
