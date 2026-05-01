@@ -1,0 +1,266 @@
+/* ROOT VARIABLES*/
+:root {
+  --dark-blue: #1e293b;
+  --primary-blue: #2563eb;
+  --border-color: #e2e8f0;
+  --light-gray: #f8fafc;
+}
+
+/* GLOBAL STYLES*/
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #334155;
+  overflow: hidden;
+}
+
+.view {
+  display: none;
+}
+
+/* COMMON UTILITIES*/
+.bg-dark-blue { background-color: var(--dark-blue) !important; }
+.text-dark-blue { color: var(--dark-blue); }
+
+.bg-soft-blue { background-color: rgba(255, 255, 255, 0.15); }
+.bg-light-gray { background-color: #f1f5f9; }
+
+.cursor-pointer { cursor: pointer; }
+
+.extra-small { font-size: 0.75rem; }
+
+/* AUTH PAGES*/
+.login-container {
+  min-height: 100vh;
+}
+
+.login-card,
+.register-card {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 14px;
+  border: none;
+}
+
+.auth-icon-box {
+  width: 60px;
+  height: 60px;
+  background: #3c6df0;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+}
+
+.auth-icon-box i {
+  color: #fff;
+  font-size: 22px;
+}
+
+/* FORM & INPUT*/
+.form-label {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.input-group-text {
+  border-radius: 8px 0 0 8px;
+  border-right: none;
+  color: #888;
+}
+
+.form-control,
+.form-select {
+  border-radius: 0 8px 8px 0;
+  border: 1px solid var(--border-color);
+  border-left: none;
+  padding: 0.6rem 1rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+/* BUTTONS*/
+.btn-primary {
+  background: #3c6df0;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background: #2c4da7;
+}
+
+.login-btn {
+  background-color: #2b67f6;
+}
+
+.login-btn:hover {
+  background-color: #1a54d4;
+}
+
+/* NAVBAR*/
+.navbar-nav .nav-link {
+  transition: 0.2s;
+  margin-right: 0.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #0d6efd !important;
+  background-color: rgba(13, 110, 253, 0.15);
+  border-radius: 8px;
+}
+
+/* DASHBOARD  */
+
+/* Stat Cards */
+.stat-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-top: 4px solid transparent;
+}
+
+.border-blue { border-top-color: #0d6efd; }
+.border-green { border-top-color: #198754; }
+.border-red { border-top-color: #dc3545; }
+.border-yellow { border-top-color: #ffc107; }
+
+/* Icon Box */
+.icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Colors */
+.bg-blue-light { background-color: #e7f1ff; }
+.text-blue { color: #0d6efd; }
+
+.bg-green-light { background-color: #e8f5e9; }
+.text-green { color: #198754; }
+
+.bg-red-light { background-color: #ffebee; }
+.text-red { color: #dc3545; }
+
+.bg-yellow-light { background-color: #fff9c4; }
+.text-yellow { color: #fbc02d; }
+
+/* Progress */
+.custom-progress {
+  height: 8px;
+  background-color: #f1f5f9;
+}
+/* EMPLOYEE TABLE*/
+.table thead th {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+}
+
+.table tbody td {
+  padding: 16px 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.table-hover tbody tr:nth-of-type(even) {
+  background-color: rgba(248, 250, 252, 0.8);
+}
+
+/* Avatar */
+.avatar,
+.avatar-circle {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.avatar-circle {
+  width: 35px;
+  height: 35px;
+}
+
+/* Badge */
+.badge {
+  font-weight: 500;
+}
+
+.bg-blue-subtle {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+/* MODALS*/
+.modal-content {
+  border-radius: 12px;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+/* VIEW EMPLOYEE MODAL*/
+#viewEmployeeModal .modal-content {
+  border-radius: 16px;
+}
+
+/* Avatar */
+#viewEmployeeModal #viewAvatar {
+  width: 90px;
+  height: 90px;
+  font-size: 2.2rem;
+  margin: auto;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Info Cards */
+#viewEmployeeModal .modal-body .row > div > div {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 12px;
+  transition: 0.2s;
+}
+
+#viewEmployeeModal .modal-body .row > div > div:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Animation */
+#viewEmployeeModal .modal-content {
+  animation: fadeInScale 0.25s ease-in-out;
+}
+
+@keyframes fadeInScale {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}

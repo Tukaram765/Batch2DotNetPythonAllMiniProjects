@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\ems.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\ems.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED951F3E-545D-4195-AD58-C20174093493}|EMS.TEST\\EMS.TEST.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.test\\employeescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED951F3E-545D-4195-AD58-C20174093493}|EMS.TEST\\EMS.TEST.csproj|solutionrelative:ems.test\\employeescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED951F3E-545D-4195-AD58-C20174093493}|EMS.TEST\\EMS.TEST.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.test\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED951F3E-545D-4195-AD58-C20174093493}|EMS.TEST\\EMS.TEST.csproj|solutionrelative:ems.test\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\services\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\services\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\services\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\services\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\dtos\\employeedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\dtos\\employeedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Migrations\\20260417191422_Start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EMS.API\\Migrations\\20260417191422_Start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\jest.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\jest.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.Tests\\Controllers\\AuthControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EMS.Tests\\Controllers\\AuthControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.Tests\\Services\\AuthServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EMS.Tests\\Services\\AuthServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|c:\\users\\tukaram\\onedrive\\desktop\\.net python\\ems-miniproject2\\ems.api\\migrations\\20260417191914_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58DA22-3696-F8C4-355F-17D433D92959}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\migrations\\20260417191914_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "EMS.API\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAADwv9YAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:30:50.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Services\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Services\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Services\\EmployeeRepository.cs",
+              "RelativeToolTip": "EMS.API\\Services\\EmployeeRepository.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAiwG8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:30:04.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Program.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Program.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Program.cs",
+              "RelativeToolTip": "EMS.API\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAcwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:36:39.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.TEST\\Controllers\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "EMS.TEST\\Controllers\\AuthControllerTests.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.TEST\\Controllers\\AuthControllerTests.cs",
+              "RelativeToolTip": "EMS.TEST\\Controllers\\AuthControllerTests.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T18:33:06.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.TEST\\EmployeesControllerTests.cs",
+              "RelativeDocumentMoniker": "EMS.TEST\\EmployeesControllerTests.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.TEST\\EmployeesControllerTests.cs",
+              "RelativeToolTip": "EMS.TEST\\EmployeesControllerTests.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAADwv9MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:09:09.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EMS.API.csproj",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\EMS.API.csproj",
+              "RelativeDocumentMoniker": "EMS.API\\EMS.API.csproj",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\EMS.API.csproj",
+              "RelativeToolTip": "EMS.API\\EMS.API.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-17T18:07:14.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Services\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Services\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Services\\IEmployeeRepository.cs",
+              "RelativeToolTip": "EMS.API\\Services\\IEmployeeRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:32:03.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeDtos.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\DTOs\\EmployeeDtos.cs",
+              "RelativeDocumentMoniker": "EMS.API\\DTOs\\EmployeeDtos.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\DTOs\\EmployeeDtos.cs",
+              "RelativeToolTip": "EMS.API\\DTOs\\EmployeeDtos.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAswJEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:25:15.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EMS.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAAACgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:34:44.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260417191914_start.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Migrations\\20260417191914_start.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Migrations\\20260417191914_start.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Migrations\\20260417191914_start.cs",
+              "RelativeToolTip": "EMS.API\\Migrations\\20260417191914_start.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:19:14.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EMS.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:27:49.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Models\\AppUser.cs",
+              "RelativeToolTip": "EMS.API\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvw4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:34:15.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Models\\Employee.cs",
+              "RelativeToolTip": "EMS.API\\Models\\Employee.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvyMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:33:00.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Services\\AuthService.cs",
+              "RelativeToolTip": "EMS.API\\Services\\AuthService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAkwF8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T05:35:32.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260417191422_Start.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Migrations\\20260417191422_Start.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Migrations\\20260417191422_Start.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Migrations\\20260417191422_Start.cs",
+              "RelativeToolTip": "EMS.API\\Migrations\\20260417191422_Start.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAUwGsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:14:23.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EMS.API\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EMS.API\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAACIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:28:43.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "EMS.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.API\\appsettings.json",
+              "RelativeToolTip": "EMS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T15:35:21.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.Tests\\Controllers\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "EMS.Tests\\Controllers\\AuthControllerTests.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.Tests\\Controllers\\AuthControllerTests.cs",
+              "RelativeToolTip": "EMS.Tests\\Controllers\\AuthControllerTests.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T18:16:43.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.Tests\\Services\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "EMS.Tests\\Services\\AuthServiceTests.cs",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\EMS.Tests\\Services\\AuthServiceTests.cs",
+              "RelativeToolTip": "EMS.Tests\\Services\\AuthServiceTests.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T18:19:03.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "jest.config.js",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\jest.config.js",
+              "RelativeDocumentMoniker": "frontend\\jest.config.js",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\jest.config.js",
+              "RelativeToolTip": "frontend\\jest.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-16T16:38:45.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\package.json",
+              "RelativeDocumentMoniker": "frontend\\package.json",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\package.json",
+              "RelativeToolTip": "frontend\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T16:38:46.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\index.html",
+              "RelativeDocumentMoniker": "frontend\\index.html",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\index.html",
+              "RelativeToolTip": "frontend\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-16T16:38:44.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\package-lock.json",
+              "RelativeDocumentMoniker": "frontend\\package-lock.json",
+              "ToolTip": "C:\\Users\\TUKARAM\\OneDrive\\Desktop\\.Net Python\\EMS-MiniProject2\\frontend\\package-lock.json",
+              "RelativeToolTip": "frontend\\package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T16:38:45.626Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
